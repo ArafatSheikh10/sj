@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Text Scroller</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .scrolling-container {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 20px 0;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+        }
+
+        .scrolling-text {
+            display: inline-block;
+            animation: scroll-text 30s linear infinite;
+        }
+
+        .scrolling-text span {
+            display: inline-block;
+            margin-right: 50px; /* Space between text repetitions */
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4a5568;
+            padding: 0 10px;
+        }
+
+        @keyframes scroll-text {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="scrolling-container">
+    <div class="scrolling-text">
+        <span>This is a continuously scrolling text. The scroll is infinite and smooth.</span>
+        <span>This is a continuously scrolling text. The scroll is infinite and smooth.</span>
+        <span>This is a continuously scrolling text. The scroll is infinite and smooth.</span>
+        <span>This is a continuously scrolling text. The scroll is infinite and smooth.</span>
+    </div>
+</div>
+
+</body>
+</html>

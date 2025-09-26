@@ -1,0 +1,719 @@
+/* XL Device :1200px. */
+@media (min-width: 1300px) and (max-width: 1449px) {
+
+    /* hero-area */
+
+    .hero-main-image {
+        bottom: 0;
+        left: 5%;
+    }
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    /* hero-area */
+ 
+    .hero-main-image {
+        bottom: 0;
+        left: 5%;
+    }
+
+    .bottom-round-line {
+        bottom: -5px;
+        width: 112%;
+    }
+
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h4 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* hero-area */
+
+    .hero-area {
+        padding: 160px 0 574px 0;
+    }
+ 
+    .hero-main-image {
+        bottom: 0;
+        left: 5%;
+    }
+
+    .bottom-round-line {
+        bottom: -7px;
+        width: 135%;
+    }
+
+    /* our-services-card-wraper */
+    
+
+    .our-services-card-item .common-btn {
+        font-size: 13px;
+    }
+
+    .our-services-card-item-1 .our-services-card-content {
+        width: 92%;
+    }
+
+    .our-services-card-item-2-btn-message-text p {
+        font-size: 12px;
+    }
+
+    /* meet-area */
+
+    .meet-area-right-top-area-content-1 p {
+        font-size: 30px;
+    }
+
+    .meet-area-right-top-area-content-2 span {
+        font-size: 37px !important;
+    }
+
+    .orange-line {
+        position: absolute;
+        top: -60px;
+        right: -4px;
+        width: 80px;
+        height: 207px;
+        background-color: #FF5C21;
+        border-radius: 50px;
+        transform: rotate(39deg);
+    }
+
+
+}
+
+
+/* Tablat Device */
+@media (min-width: 767px) and (max-width: 992px) {
+
+    .container{
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 50.55px;
+    }
+
+    h1 span img{
+        width: 82%;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* common-btn */
+
+    .common-btn {
+        font-size: 16px;
+    }
+
+    /* nav-area */
+
+    #nav-area {
+        grid-template-columns: 50% 50%;
+        width: 95%;
+    }
+
+    .section-menu-area{
+        display: none;
+    }
+
+    .nav-area__trigger-btn-wraper {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    #nav-area  .nav-area-button {
+        display: none;
+    }
+
+    /* hero-area */
+
+    .hero-area {
+        padding: 160px 0 480px 0;
+    }
+ 
+    .hero-main-image {
+        bottom: 0;
+        left: 5%;
+    }
+
+    .bottom-round-line {
+        bottom: -7px;
+        width: 162%;
+    }
+
+    /* our-services- */
+
+    .our-services-card-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* our-portfolio */
+
+    .our-portfolio {
+        padding: 142px 0 60px 0;
+    }
+
+    .our-portfolio-category-area #pills-tab .nav-link {
+        font-size: 14px;
+    }
+
+    .our-portfolio-category-area #pills-tab .nav-link.active {
+        font-size: 14px;
+    }
+
+    .our-portfolio-category-item {
+        gap: 22px;
+    }
+
+    .our-portfolio-category-tag {
+        font-size: 12px;
+    }
+
+    .our-portfolio-category-item .secondry-btn {
+        margin-top: 20px;
+    }
+
+    /* our-services */
+
+    .our-services {
+        padding: 60px 0 60px 0;
+        width: 100%;
+    }
+
+    .our-services-card-item-1 .our-services-card-content {
+        width: 100%;
+        position: relative;
+    }
+
+    .our-services-card-content h4{
+        font-size: 30px;
+    }
+
+    .our-services-card-content p{
+        font-size: 18px;
+    }
+
+    .our-services-card-item-2-btn-area .common-btn {
+        margin: auto;
+        margin-right: 21px;
+    }
+
+    /* testimonial-area */
+
+    .testimonial-area {
+        padding: 40px 0 60px 0;
+        position: relative;
+    }
+
+    /* our-articles-area */
+
+    .our-articles-area {
+        padding-bottom: 0;
+    }
+
+    .our-articles-area .section-button .common-btn {
+        margin-top: 50px;
+    }
+
+    /* meet-area */
+
+    .meet-area {
+        margin: 60px 0 60px 0;
+    }
+
+    .meet-area-content {
+        padding: 0;
+        padding-right: 16px;
+    }
+
+    .meet-area-content h2 {
+        font-size: 28px;
+    }
+
+    .meet-area-right-top-area-content-1 p {
+        font-size: 32px;
+        padding: 12px;
+    }
+
+    .meet-area-right-top-area-content-2 span {
+        padding: 5px 16px;
+        font-size: 33px !important;
+    }
+
+    .meet-area-right-top-area-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .meet-area-right-bottom {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 15px;
+    }
+
+    .meet-area-right-bottom .common-btn {
+        font-size: 14px;
+    }
+
+    /* footer-area */
+
+    .footer-area {
+        padding: 60px 0 70px 0;
+    }
+
+    .footer-area-inner {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 40px 0;
+    }
+
+
+}
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 766.99px) {
+
+    .container{
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    h1 span img{
+        width: 82%;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* common-btn */
+
+    .common-btn {
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .more-read-btn {
+        font-size: 14px;
+    }
+
+    .section-tag {
+        font-size: 12px;
+    }
+
+    /* mobail-content */
+
+    .mobail-content {
+        display: flex;
+    }
+
+    /* nav-area */
+
+    #nav-area {
+        grid-template-columns: 30% 70%;
+        width: 95%;
+        height: 65px;
+        top: 50px;
+    }
+
+    .section-menu-area{
+        display: none;
+    }
+
+    .nav-area__trigger-btn-wraper {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    #nav-area  .nav-area-button {
+        display: none;
+    }
+
+    /* hero-area */
+
+    .hero-area {
+        padding: 140px 0 290px 0;
+    }
+
+    .hero-main-image {
+        bottom: 28px;
+        left: 5%;
+    }
+
+    .bottom-round-line {
+        bottom: -7px;
+        width: 280%;
+    }
+
+    .hero-area-tag {
+        font-size: 13px;
+    }
+
+    .hero-area-content p {
+        font-size: 14px;
+    }
+
+    .mobail-hero-text-image span img {
+        width: 70%;
+    }
+
+    /* our-portfolio */
+
+    .our-portfolio {
+        padding: 60px 0 80px 0;
+    }
+
+    .our-portfolio-category-area #pills-tab .nav-link {
+        padding: 0 18px;
+        font-size: 11px;
+    }
+
+    .our-portfolio-category-area #pills-tab .nav-link.active {
+        font-size: 11px;
+    }
+
+    .our-portfolio-category-wraper {
+        gap: 40px;
+        margin-top: 50px;
+    }
+
+    .our-portfolio-category-item {
+        flex-direction: column;
+        gap: 55px;
+    }
+
+    .our-portfolio-category-item:nth-child(even){
+        flex-direction: column-reverse;
+    }
+
+    .our-portfolio-category-content {
+        text-align: center;
+    }
+
+    .our-portfolio-category-tag {
+        margin: auto;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* .section-button .common-btn {
+        margin-top: 37px;
+    } */
+
+    .our-portfolio-category-item .secondry-btn {
+        margin-top: 36px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    
+    /* our-services */
+
+    .our-services {
+        padding: 60px 0 60px 0;
+        width: 94%;
+    }
+
+    .our-services .col-12 {
+        padding: 0;
+    }
+
+    .our-services-card-wraper {
+        margin-top: 15px;
+    }
+
+    .our-services-card-item {
+        padding: 30px 22px 19px 22px;
+        height: 335px;
+    }
+
+    .our-services-card-item-1 .our-services-card-content {
+        width: 100%;
+        position: relative;
+    }
+
+    .our-services-card-content h4{
+        font-size: 18px;
+    }
+
+    .our-services-card-content p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .our-services-card-item-2-btn-area .common-btn {
+        margin: auto;
+        margin-right: 21px;
+    }
+
+    .our-services-card-item .common-btn {
+        height: 38px;
+        margin-top: 0;
+        font-size: 11px;
+        padding: 15px;
+    }
+
+    .our-services-card-item-2-btn-area {
+        padding: 6px 10px;
+    }
+
+    .our-services-card-item-2-btn-message-icon {
+        width: 30px;
+        height: 28px;
+    }
+
+    .our-services-card-item-2-btn-message-text p {
+        font-size: 8px;
+    }
+
+    /* testimonial-area */
+
+    .testimonial-area {
+        padding: 20px 0 120px 0;
+        position: relative;
+    }
+
+    .testimonial-area .testimonial-area-wraper .owl-nav {
+        right: 50%;
+        transform: translateX(50%);
+        top: 103%;
+    }
+
+    /* our-articles-area */
+
+    .our-articles-card-wraper {
+        padding: 30px 0 0px 0;
+    }
+
+    /* project-slider */
+
+    .project-slider-area {
+        gap: 17px 0;
+    }
+    
+    /* meet-area */
+    .meet-area {
+        margin: 50px 0 31px 0;
+    }
+
+    .meet-area-inner {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 60px 0;
+        padding: 15px;
+    }
+
+    .meet-area-content {
+        padding: 0;
+    }
+
+    .meet-area-content h2 {
+        font-size: 28px;
+    }
+
+    .meet-area-right-top-area-content-1 p {
+        font-size: 21px;
+        padding: 12px;
+    }
+
+    .meet-area-right-top-area-content-1-corcle-image {
+        width: 129%;
+    }
+
+    .meet-area-right-top-area-content-2 span {
+        padding: 5px 16px;
+        font-size: 33px !important;
+    }
+
+    .meet-area-right-top-area-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .meet-area-right-bottom {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 15px;
+    }
+
+    .meet-area-right-bottom .common-btn {
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        height: 40px;
+    }
+
+    .meet-area-right-bottom .common-btn img{
+        width: auto;
+    }
+
+    /* footer-area */
+
+    .footer-area {
+        padding: 51px 0 28px 0;
+    }
+
+    .footer-area-inner-left h4 {
+        font-size: 21px;
+    }
+
+    .footer-area-inner-left p {
+        font-size: 15px;
+    }
+
+    .footer-area-inner {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 40px 0;
+    }
+
+    .footer-area-menu-area {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px 0;
+    }
+
+    .footer-area-menu-area .section-menu li a {
+        font-size: 14px !important;
+    }
+
+    .social-icons a {
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+ 
+}
+
+/* LandScape Mobail device */
+@media (min-width: 575px) and (max-width: 768px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 26px;
+    }
+
+    .section-tag {
+        font-size: 15px;
+    }
+
+    /* hero-area */
+
+    .hero-area {
+        padding: 160px 0 350px 0;
+    }
+ 
+    .hero-main-image {
+        bottom: 0;
+        left: 5%;
+    }
+
+    .bottom-round-line {
+        bottom: -7px;
+        width: 170%;
+    }
+    
+    .hero-area-content p {
+        font-size: 16px;
+    }
+
+    /* our-portfolio */
+
+    .our-portfolio-category-area #pills-tab .nav-link {
+        padding: 0 18px;
+        font-size: 11px;
+    }
+
+    .our-portfolio-category-area #pills-tab .nav-link {
+        font-size: 14px;
+    }
+    .our-portfolio-category-area #pills-tab .nav-link.active {
+        font-size: 14px;
+    }
+
+    .our-portfolio-category-tag {
+        margin: auto;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+ 
+    .our-portfolio-category-image {
+        width: 81%;
+        height: 100%;
+    }
+
+    /* meet-area */
+
+    .meet-area-right-bottom .common-btn {
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .meet-area-right-bottom .common-btn img{
+        width: auto;
+    }
+
+    /* footer-area */
+
+    .footer-area-menu-area .section-menu li a {
+        font-size: 16px !important;
+    }
+}
