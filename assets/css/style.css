@@ -317,7 +317,6 @@ h5 {
     transform: translateX(-50%);
     top: 5%;
     width: 90%;
-    /* display: flex; */
     flex-direction: column;
     gap: 35px;
     padding: 24px;
@@ -332,7 +331,8 @@ h5 {
 
 .mobail-side-bar.show-mobail-slide{
      opacity: 100%;
-     visibility: visible
+     visibility: visible;
+     display: flex;
 }
 
 .mobail-side-bar p{
