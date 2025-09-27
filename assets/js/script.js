@@ -18,122 +18,34 @@ $(".mobail-side-bar__close , .overlay").click(function(){
     $(".overlay").removeClass("show-mobail-slide");
 });
 
+// number count
 
-$('.brand-logo-wraper').owlCarousel({
-    loop:true,
-    margin:24,
-    nav:false,
-    dots: false,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        900:{
-            items:4
-        },
-        1300:{
-            items:6
-        }
-    }
-  });
+$('.number-count').counterUp({
+    delay: 10,
+    time: 2000
+});
 
+// testemonials_card-wraper
 
-// testimonial-area-wraper
-
-$('.testimonial-area-wraper').owlCarousel({
+$('.testemonials_card-wraper').owlCarousel({
   loop:true,
-  margin:24,
+  margin:10,
   nav:true,
-  navText: ['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
+  navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
   dots: false,
-  mergeFit: true,
-  rewind: true,
   responsive:{
       0:{
-          items:1
+          items:1,
       },
       600:{
-          items:2
-      },
-      900:{
-          items:3
-      },
-      1300:{
-          items:4
-      }
-  }
-});
-
-
-// project-slider
-
-$('.project-slider-wraper-1').owlCarousel({
-  rtl: true,
-  loop: true,
-  margin: 20,
-  nav: false,
-  dots: false,
-  autoplay: true,
-  autoplayTimeout: 1000,
-  autoplaySpeed: 1000,
-  smartSpeed: 1000,
-  fluidSpeed: 1000,
-  slideTransition: 'linear',
-  autoplayHoverPause: false,
-  responsive:{
-    0:{
-        items: 2,
-        margin: 10,
-    },
-    480:{
-        items: 2,
-        margin: 15,
-    },
-    768:{
-        items: 3,
-        margin: 20,
-    },
-    1000:{
-        items: 4,
-        margin: 24,
-    }
-  }
-});
-
-$('.project-slider-wraper-2').owlCarousel({
-  loop: true,
-  margin: 20,
-  nav: false,
-  dots: false,
-  autoplay: true,
-  autoplayTimeout: 1000,
-  autoplaySpeed: 1000,
-  smartSpeed: 1000,
-  fluidSpeed: 1000,
-  slideTransition: 'linear',
-  autoplayHoverPause: false,
-  responsive:{
-      0:{
-          items: 2,
-          margin: 10,
-      },
-      480:{
-          items: 2,
-          margin: 15,
-      },
-      768:{
-          items: 3,
-          margin: 20,
+          items:1,
       },
       1000:{
-          items: 4,
-          margin: 24,
+          items:1,
       }
   }
+})
+
 });
 
 
-});

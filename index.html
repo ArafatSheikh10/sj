@@ -6,8 +6,8 @@
     <!-- favicon-icon -->
     <link rel="icon" type="image/x-icon" href="assets/image/logo.webp">
     <!-- normal-link -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/aos.css">
@@ -19,18 +19,448 @@
 
     <!-- Header Area Start -->
      <header>
-        <div class="container">  
-            <div class="row">
-                
+        <nav>
+            <div class="container">  
+                <div class="row align-items-center">
+                    <div class="col-4 col-md-3">
+                        <div class="logo header_logo">
+                            <a href="#"><img src="assets/image/header-logo.png" alt="header-logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-0 col-md-6">
+                        <ul class="menu">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-8 col-md-3">
+                        <div class="nav_right">
+                            <a href="" class="common_btn">Let’s Talk</a>
+                            <div class="nav_closer"><i class="fa-solid fa-bars"></i></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
      </header>
     <!-- Header Area End -->
+
+    <!-- Hero Area Start -->
+    <section class="hero_area">
+        <!-- hero-circle-sticky-bg -->
+        <img src="assets/image/hero-circle-sticky-bg.png" alt="hero-circle-sticky-bg" class="hero-circle-sticky">
+        <div class="container">
+            <div class="row gy-md-0 gy-4">
+                <div class="col-lg-5 col-md-6 col-12 order-last order-md-first">
+                    <div class="hero_content">
+                        <span class="hero_tag">UX Designer</span>
+                        <h1>Hi There, I’m <span class="primary-color">Sarah Jones</span></h1>
+                        <p>Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
+                        <div class="hero_btn-wraper">
+                            <div class="common_btn">Hire Me</div>
+                            <div class="common_btn border_btn">Portfolio</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-12">
+                    <div class="hero_image">
+                        <img src="assets/image/ux-bg.png" alt="ux-bg">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Area End -->
+
+
+    <!-- About Area Start -->
+     <section class="similar-section about_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="similar_title text-center">
+                        <h2>About Me</h2>
+                        <p>I'm Sara Jones, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+                    </div>   
+                    <div class="similar-card-wraper about_success-wraper">
+                        <div class="about_success">
+                            <p class="count_text"><span class="number-count">502</span></p>
+                            <p>Projects Done</p>
+                        </div>
+                        <div class="about_success">
+                            <p class="count_text"><span class="number-count">10</span> <span>+</span></p>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="about_success">
+                            <p class="count_text"><span class="number-count">273</span> <span>+</span></p>
+                            <p>Clients Served</p>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+        <!-- about-circle-sticky-bg -->
+        <img src="assets/image/about-circle-sticky-bg.png" alt="about-circle-sticky-bg" class="about-circle-sticky">
+     </section>
+    <!-- About Area End -->
+
+
+    <!-- Services Area Start -->
+     <section class="similar-section services-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="similar_title text-center">
+                        <h2>Services</h2>
+                        <p>Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+                    </div>
+                    <div class="similar-card-wraper services_card-wraper">
+                        <div class="services_card">
+                            <div><img src="assets/icon/magic.svg" alt="magic"></div>
+                            <h3>Design</h3>
+                            <p>I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+                        </div>
+                        <div class="services_card">
+                            <div><img src="assets/icon/red-circle-line.svg" alt="red-circle-line"></div>
+                            <h3>Branding</h3>
+                            <p>I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>
+                        </div>
+                        <div class="services_card">
+                            <div><img src="assets/icon/search-icon.svg" alt="search-icon"></div>
+                            <h3>UX Research</h3>
+                            <p>"I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>
+                        </div>
+                        <div class="services_card">
+                            <div><img src="assets/icon/list-menu.svg" alt="list-menu"></div>
+                            <h3>Usability Testing</h3>
+                            <p>I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Services Area End -->
+
+
+    <!-- Portfolio Area Start -->
+     <section class="similar-section portfolio-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="similar_title text-center">
+                        <h2>My Portfolio</h2>
+                        <p>Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+                    </div>
+                    <div class="similar-card-wraper portfolio_card-wraper">
+                        <div class="portfolio_card">
+                            <div class="portfolio_card-image"><img src="assets/image/portfolio-image-1.png" alt="portfolio-image-1"></div>                    
+                            <a href="" class="portfolio_card-content">
+                                <div>
+                                    <h3>Furniture Mobile App</h3>
+                                    <p>Web Design / Usability Testing</p>
+                                </div>  
+                                <span class="arrow_circle"><i class="fa-solid fa-arrow-right"></i></span>                         
+                            </a>
+                        </div>                                              
+                        <div class="portfolio_card">
+                            <div class="portfolio_card-image"><img src="assets/image/portfolio-image-2.png" alt="portfolio-image-2"></div>                    
+                            <a href="" class="portfolio_card-content">
+                                <div>
+                                    <h3>Travel App Design</h3>
+                                    <p>UX Research / App Design </p>
+                                </div>  
+                                <span class="arrow_circle"><i class="fa-solid fa-arrow-right"></i></span>                         
+                            </a>
+                        </div>                                              
+                        <div class="portfolio_card">
+                            <div class="portfolio_card-image"><img src="assets/image/portfolio-image-3.png" alt="portfolio-image-3"></div>                    
+                            <a href="" class="portfolio_card-content">
+                                <div>
+                                    <h3>Personal Page</h3>
+                                    <p>Web Design</p>
+                                </div>  
+                                <span class="arrow_circle"><i class="fa-solid fa-arrow-right"></i></span>                         
+                            </a>
+                        </div>                                              
+                        <div class="portfolio_card">
+                            <div class="portfolio_card-image"><img src="assets/image/portfolio-image-4.png" alt="portfolio-image-4"></div>                    
+                            <a href="" class="portfolio_card-content">
+                                <div>
+                                    <h3>Furniture Mobile App</h3>
+                                    <p>App Design </p>
+                                </div>  
+                                <span class="arrow_circle"><i class="fa-solid fa-arrow-right"></i></span>                         
+                            </a>
+                        </div>                                              
+                        <div class="portfolio_card">
+                            <div class="portfolio_card-image"><img src="assets/image/portfolio-image-5.png" alt="portfolio-image-5"></div>                    
+                            <a href="" class="portfolio_card-content">
+                                <div>
+                                    <h3>Coffee House Landing Page</h3>
+                                    <p>UX Research / Web Design </p>
+                                </div>  
+                                <span class="arrow_circle"><i class="fa-solid fa-arrow-right"></i></span>                         
+                            </a>
+                        </div>                                              
+                        <div class="portfolio_card">
+                            <div class="portfolio_card-image"><img src="assets/image/portfolio-image-6.png" alt="portfolio-image-6"></div>                    
+                            <a href="" class="portfolio_card-content">
+                                <div>
+                                    <h3>Home Services Page</h3>
+                                    <p>Web Design / Marketing</p>
+                                </div>  
+                                <span class="arrow_circle"><i class="fa-solid fa-arrow-right"></i></span>                         
+                            </a>
+                        </div>                                              
+                    </div>                  
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Portfolio Area End -->
+
+     <!-- Skill Area Start -->
+     <section class="similar-section skill-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="similar_title text-center">
+                        <h2>Core Design Skills</h2>
+                        <p>I excel in essential design skills, creating visually stunning and functional digital experiences. From UI design to UX research, my passion is to craft effective and memorable digital solutions.</p>
+                    </div>
+                    <div class="similar-card-wraper skill-area_card-wraper">
+                        <div class="skill_card">
+                            <div class="skill_card-item">
+                                <h4>Interaction Design</h4>
+                                <div class="progress_area">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:60%"></div>                              
+                                    </div>
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                            <div class="skill_card-item">
+                                <h4>Usability Testing</h4>
+                                <div class="progress_area">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:70%"></div>                              
+                                    </div>
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                            <div class="skill_card-item">
+                                <h4>User Research</h4>
+                                <div class="progress_area">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:45%"></div>                              
+                                    </div>
+                                    <span>45%</span>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="skill_card">
+                            <div class="skill_card-item">
+                                <h4>Figma</h4>
+                                <div class="progress_area">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:95%"></div>                              
+                                    </div>
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                            <div class="skill_card-item">
+                                <h4>Prototyping</h4>
+                                <div class="progress_area">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:80%"></div>                              
+                                    </div>
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                            <div class="skill_card-item">
+                                <h4>Information Architecture</h4>
+                                <div class="progress_area">
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:50%"></div>                              
+                                    </div>
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                  
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Skill Area End -->
+
+    <!-- Testemonials Area Start -->
+    <section class="similar-section testemonials_area">
+        <!-- tastiomonial-circle-sticky-bg -->
+        <img src="assets/image/tastiomonial-circle-sticky-bg.png" alt="tastiomonial-circle-sticky-bg" class="tastiomonial-circle-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">                     
+                    <div class="similar-card-wraper testemonials_card-wraper owl-carousel">
+                        <div class="text-center testemonials_card">
+                            <h2>Testemonials</h2>
+                            <p>Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                            <div class="client_profile">
+                                <div class="client_avater"></div>
+                                <h4>John Smith <span>/ CEO of XYZ Company</span></h4>
+                            </div>
+                        </div>
+                        <div class="text-center testemonials_card">
+                            <h2>Testemonials</h2>
+                            <p>Working with Sara was an absolute pleasure. Her UX design skills are exceptional, and she delivered a product that exceeded our expectations. The user experience she created has significantly improved our customer satisfaction.</p>
+                            <div class="client_profile">
+                                <div class="client_avater"></div>
+                                <h4>Emily Davis <span>/ Product Manager at ABC Corp</span></h4>
+                            </div>
+                        </div>
+                        <div class="text-center testemonials_card">
+                            <h2>Testemonials</h2>
+                            <p>Sara's creative vision and technical expertise are unmatched. She took our complex requirements and turned them into an intuitive, beautiful interface. Our users love the new design!</p>
+                            <div class="client_profile">
+                                <div class="client_avater"></div>
+                                <h4>Michael Brown <span>/ Founder of TechStart</span></h4>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Testemonials Area End -->
+
+    <!-- Inspiration Area Start -->
+    <section class="similar-section inspiration-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="similar_title text-center">
+                        <h2>Design Insights and Inspiration</h2>
+                        <p>Discover industry insights, expert tips, and design inspiration. Stay updated with the latest trends in web design and user experience.</p>
+                    </div>
+                    <div class="similar-card-wraper inspiration_card-wraper">
+                        <div class="inspiration_card">
+                            <div class="inspiration_card-image"><img src="assets/image/inspiration-card-1.png" alt="inspiration-card-1"></div>
+                            <div class="inspiration_card-content">
+                                <div>
+                                    <span>August 15, 2023 / UX</span>
+                                    <h4>Typography Tips for Design Success</h4>
+                                    <p>Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.</p>
+                                </div>
+                                <a href="" class="inspiration_card-button">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>                      
+                        <div class="inspiration_card">
+                            <div class="inspiration_card-image"><img src="assets/image/inspiration-card-2.png" alt="inspiration-card-2"></div>
+                            <div class="inspiration_card-content">
+                                <div>
+                                    <span>August 15, 2023 / UX</span>
+                                    <h4>Color Psychology in UX</h4>
+                                    <p>Explore how color choices impact user emotions and decision-making in UX design.</p>
+                                </div>
+                                <a href="" class="inspiration_card-button">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>                      
+                        <div class="inspiration_card">
+                            <div class="inspiration_card-image"><img src="assets/image/inspiration-card-3.png" alt="inspiration-card-3"></div>
+                            <div class="inspiration_card-content">
+                                <div>
+                                    <span>August 15, 2023 / UX</span>
+                                    <h4>Boosting UX with Microinteractions</h4>
+                                    <p>Discover the power of microinteractions in enhancing user experience and engagement.</p>
+                                </div>
+                                <a href="" class="inspiration_card-button">Read More <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>                      
+                    </div>                  
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Inspiration Area End -->
+
+
+    <!-- Contact Area Start -->
+
+    <div class="contact_area">
+        <div class="container">
+            <div class="row gy-lg-0 gy-5">
+                <div class="col-12 col-lg-6">
+                    <div class="contact_area-left">
+                        <div class="similar_title">
+                            <h2>Get in Touch</h2>
+                            <p>Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+                        </div>
+                        <ul>
+                            <li><i class="fa-solid fa-phone-volume"></i>+1205 5872 321</li>
+                            <li><i class="fa-solid fa-envelope"></i>contact@sarajonesdesign.com</li>
+                            <li><i class="fa-solid fa-location-dot"></i>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form action="">
+                        <input type="text" placeholder="First name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="number" placeholder="Phone number" required>
+                        <textarea name="message" id="message" placeholder="Your message" required></textarea>
+                        <button type="submit" class="common_btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- contact-circle-sticky-bg -->
+        <img src="assets/image/contact-circle-sticky-bg.png" alt="contact-circle-sticky-bg" class="contact-circle-sticky">
+    </div>
+
+    <!-- Contact Area End -->
+
+
+    <!-- Footer Area Start -->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-12">
+                    <div class="menu footer_menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <div class="logo footer_logo">
+                            <a href="#"><img src="assets/image/footer-logo.png" alt="footer-logo"></a>
+                        </div>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blog</a></li>
+                    </div>
+                    <div class="social-icon_area">
+                        <p>Follow me on social media:</p>
+                        <ul>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Area End -->
+
+
 
     <!-- js-links -->
      <script src="assets/js/jqurey.js"></script>
      <script src="assets/js/bootstrap.min.js"></script>
      <script src="assets/js/owl.carousel.min.js"></script>
+     <script src="assets/js/waypoints.min.js"></script>
+     <script src="assets/js/counterUp.js"></script>
      <script src="assets/js/aos.js"></script>
      <script src="assets/js/script.js"></script>
 </body>
