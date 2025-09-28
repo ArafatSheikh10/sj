@@ -8,14 +8,12 @@ AOS.init({
 
 // mobail-side-bar
 
-$(".nav-area__trigger-btn").click(function(){
-    $(".mobail-side-bar").addClass("show-mobail-slide");
-    $(".overlay").addClass("show-mobail-slide");
+$(".nav_trigger").click(function(){
+    $(".mobail_menu").addClass("show-mobail-slide");
 });
 
-$(".mobail-side-bar__close , .overlay").click(function(){
-    $(".mobail-side-bar").removeClass("show-mobail-slide");
-    $(".overlay").removeClass("show-mobail-slide");
+$(".nav_closer").click(function(){
+    $(".mobail_menu").removeClass("show-mobail-slide");
 });
 
 // number count

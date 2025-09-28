@@ -152,13 +152,13 @@
         width: 100px;
     }
 
-    .hero_content .hero_tag {
-        font-size: 16px;
-    }
-
     .hero_content {
         padding: 0;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
+    }
+
+    .hero_content .hero_tag {
+        font-size: 16px;
     }
 
     .hero_btn-wraper {
@@ -170,10 +170,6 @@
     /* Hero Area End */
 
     /* About Area Start */
-
-    .about_area {
-        padding: 40px 0 55px 0;
-    }
 
     .about_success .count_text {
         font-size: 48px;
@@ -187,9 +183,6 @@
 
     /* Services Area Start */
 
-    .services-area {
-        padding: 50px 0;
-    }
 
     .services_card-wraper {
         grid-template-columns: repeat(2,1fr);
@@ -218,7 +211,7 @@
     /* Skill Area Start */
 
     .skill-area {
-        padding: 50px 0;
+        padding: 70px 0;
     }
 
     .skill-area_card-wraper {
@@ -335,7 +328,7 @@
         height: 42px;
     }
 
-    .nav_closer {
+    .nav_trigger {
         display: block;
     }
 
@@ -494,6 +487,10 @@
     /*  Contact Area End */
 
     /* Footer Area Start */
+
+    footer {
+        padding: 60px 0;
+    }
 
     .footer_logo {
         margin: 0;
