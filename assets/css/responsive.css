@@ -154,7 +154,6 @@
 
     .hero_content {
         padding: 0;
-        padding-bottom: 70px;
     }
 
     .hero_content .hero_tag {
@@ -165,6 +164,10 @@
         display: flex;
         gap: 15px;
         margin-top: 22px;
+    }
+
+    .hero_image {
+        height: 270px;
     }
 
     /* Hero Area End */
@@ -190,6 +193,14 @@
 
     .services_card {
         text-align: center;
+    }
+
+    .services_card-image {
+        justify-content: center;
+    }
+
+    .services_card .star-icon img {
+        margin-left: 0;
     }
 
     /* Services Area End */
@@ -364,8 +375,8 @@
     }
 
     .hero_image {
-        width: 75%;
-        height: 100%;
+        width: 300px;
+        height: 200px;
         margin: auto;
     }
 
@@ -400,6 +411,16 @@
 
     .services_card {
         text-align: center;
+        height: 180px;
+        gap: 18px;
+    }
+
+    .services_card-image {
+        justify-content: center;
+    }
+
+    .services_card .star-icon img {
+        margin-left: 0;
     }
 
     /* Services Area End */
@@ -407,8 +428,12 @@
     /* Portfolio Area Start */
 
     .portfolio_card-wraper {
-        gap: 24px;
+        gap: 50px;
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .portfolio_card {
+        gap: 20px;
     }
 
     .portfolio_card-image {
@@ -452,6 +477,11 @@
         bottom: -70%;
         right: 45% !important;
         transform: translateX(50%);
+    }
+
+    .client_profile {
+        display: flex;
+        flex-direction: column;
     }
 
     .client_avater {
@@ -513,6 +543,16 @@
     h3 {
         font-size: 18px;
     }
+
+    /* Hero Area Start */
+
+    .hero_image {
+        width: 328px;
+        height: 234px;
+        margin: auto;
+    }
+
+    /* Hero Area End */
 
     /* Services Area Start */
 
