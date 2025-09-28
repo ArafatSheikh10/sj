@@ -215,6 +215,7 @@ nav {
     background: #c77dff;
     z-index: 1000;
     padding: 30px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
